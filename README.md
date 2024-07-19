@@ -2,6 +2,11 @@
 
 A simple tool to zip and unzip files. It is a wrapper around the ZipArchive class in PHP.
 
+## Requirements
+
+- PHP 7.4 or higher
+- PHP Zip extension
+
 ## Installation
 
 ```bash
