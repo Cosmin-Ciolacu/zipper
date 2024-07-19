@@ -1,0 +1,37 @@
+{
+    "name": "cosmin-ciolacu/zipper",
+    "description": "A simple zip utility for creating zip files and extracting items to a specific path",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "zip",
+        "zipper",
+        "zipper-php",
+        "zipper-library"
+    ],
+    "version": "1.0.0",
+    "autoload": {
+        "psr-4": {
+            "CosminCiolacu\\Zipper\\": "src/",
+            "CosminCiolacu\\Zipper\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "cosmin ciolacu",
+            "email": "cosminciolacu99@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "pestphp/pest": "^2.34",
+        "pestphp/pest-plugin": "^2.1"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+  "require": {
+    "ext-zip": "*"
+  }
+}
